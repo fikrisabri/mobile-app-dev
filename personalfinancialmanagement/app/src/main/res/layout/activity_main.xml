@@ -1,0 +1,69 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/background_color"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/tvBalance"
+        android:layout_marginTop="60pt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Balance: RM0"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:textSize="28sp"
+        android:layout_marginBottom="24dp"
+        android:gravity="center" />
+
+    <Button
+        android:id="@+id/btnAddTransaction"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/black"
+        android:layout_marginBottom="10dp"
+        android:text="Add Transaction" />
+
+    <Button
+        android:id="@+id/btnViewHistory"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/black"
+        android:layout_marginBottom="10dp"
+        android:text="View History" />
+
+    <Button
+        android:id="@+id/btnViewAnalytics"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/black"
+        android:layout_marginBottom="10dp"
+        android:text="Analytics" />
+
+    <Button
+        android:id="@+id/tvEducationContent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/black"
+        android:layout_marginBottom="10dp"
+        android:text="Education Content" />
+
+    <Button
+        android:id="@+id/btnFinancialPlanning"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/black"
+        android:layout_marginBottom="10dp"
+        android:text="Financial Planning Tool" />
+
+    <Button
+        android:id="@+id/btnResetBalance"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/black"
+        android:text="Reset Balance" />
+
+
+</LinearLayout>
